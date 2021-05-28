@@ -6,7 +6,7 @@
 
 ---
 
-👋 Hi there, this is Rebecca ([`@beccasaurus`][]) and I 💖 Bash ([Bourne Again Shell][bash]) [\*](BashWiki)
+👋 Hi there, I am Rebecca ([`@beccasaurus`][]) and I 💖 Bash ([Bourne Again Shell][bash]) [\*](BashWiki)
 
 [bash]: https://www.gnu.org/software/bash/
 [bashwiki]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
