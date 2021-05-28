@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "336df0b92d1416a2",
+        "id": "74a2c92f7d1a35e3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide/Adventurer's Guide.md",
+            "file": "Adventurer's Guide/Lessons/Variables/Variables.md",
             "mode": "source"
           }
         },
-        "group": "eda439374a683238"
+        "group": "1a7dc1cda2249487"
       },
       {
-        "id": "e1aa370d6ee47692",
+        "id": "7317f26d78c15388",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide/Adventurer's Guide.md",
+            "file": "Adventurer's Guide/Lessons/Variables/Variables.md",
             "mode": "preview"
           }
         },
-        "group": "eda439374a683238"
+        "group": "1a7dc1cda2249487"
       }
     ],
     "direction": "vertical"
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adventurer's Guide/Adventurer's Guide.md",
+                "file": "Adventurer's Guide/Lessons/Variables/Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adventurer's Guide/Adventurer's Guide.md"
+                "file": "Adventurer's Guide/Lessons/Variables/Variables.md"
               }
             }
           },
@@ -111,15 +111,16 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "336df0b92d1416a2",
+  "active": "74a2c92f7d1a35e3",
   "lastOpenFiles": [
+    "Adventurer's Guide/Lessons/Variables/Variables.md",
+    "Adventurer's Guide/Style Guide/Untitled.md",
     "Adventurer's Guide/Adventurer's Guide.md",
     "Adventurer's Guide/Lessons/Variables/Lists.md",
     "Adventurer's Guide/Lessons/Variables.md",
@@ -127,8 +128,6 @@
     "Adventurer's Guide/Variables/Text.md",
     "Adventurer's Guide/Variables/Variables.md",
     "Adventurer's Guide/Lists/Untitled.md",
-    "Adventurer's Guide/Text/Manipulating Text.md",
-    "Adventurer's Guide/Text/Untitled.md",
-    "Adventurer's Guide/Networking/Untitled.md"
+    "Adventurer's Guide/Text/Manipulating Text.md"
   ]
 }
