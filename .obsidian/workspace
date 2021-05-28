@@ -6,28 +6,26 @@
       {
         "id": "336df0b92d1416a2",
         "type": "leaf",
-        "dimension": 50,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide.md",
+            "file": "Adventurer's Guide/Adventurer's Guide.md",
             "mode": "source"
           }
         },
-        "group": "44e70618a07b7b45"
+        "group": "eda439374a683238"
       },
       {
-        "id": "ba7dabb8979e391b",
+        "id": "e1aa370d6ee47692",
         "type": "leaf",
-        "dimension": 50,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide.md",
-            "mode": "source"
+            "file": "Adventurer's Guide/Adventurer's Guide.md",
+            "mode": "preview"
           }
         },
-        "group": "44e70618a07b7b45"
+        "group": "eda439374a683238"
       }
     ],
     "direction": "vertical"
@@ -83,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adventurer's Guide.md",
+                "file": "Adventurer's Guide/Adventurer's Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,11 +98,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adventurer's Guide.md"
+                "file": "Adventurer's Guide/Adventurer's Guide.md"
               }
             }
+          },
+          {
+            "id": "48070bb3aaae94b5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -113,15 +120,15 @@
   },
   "active": "336df0b92d1416a2",
   "lastOpenFiles": [
-    "Adventurer's Guide to Bash.md",
-    "Adventurer's Guide/Untitled.md",
-    "Adventurer's Guide/Variables/Untitled.md",
-    "Prepare For Adventure/Installing Bash/Untitled.md",
-    "Prepare For Adventure/Untitled.md",
-    "Prepare For Adventure/Prepare for Adventure.md",
-    "Adventurer's Guide/Images/Attribution.md",
-    "Adventurer's Guide/Adventurer's Guide to Bash.md",
     "Adventurer's Guide/Adventurer's Guide.md",
-    "The Adventure Begins/The Adventure Begins.md"
+    "Adventurer's Guide/Lessons/Variables/Lists.md",
+    "Adventurer's Guide/Lessons/Variables.md",
+    "Adventurer's Guide/Lessons/Lists.md",
+    "Adventurer's Guide/Variables/Text.md",
+    "Adventurer's Guide/Variables/Variables.md",
+    "Adventurer's Guide/Lists/Untitled.md",
+    "Adventurer's Guide/Text/Manipulating Text.md",
+    "Adventurer's Guide/Text/Untitled.md",
+    "Adventurer's Guide/Networking/Untitled.md"
   ]
 }

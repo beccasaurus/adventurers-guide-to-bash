@@ -34,7 +34,7 @@ Choose your **experience level** to begin your journey:
 > 
 > _Learn Bash the way you'd learn a programming language!_
 > 
-> _Head on over to the [[Adventurer's Guide/Adventurer's Guide]]!_
+> _Head on over to the [[Adventurer's Guide/Adventurer's Guide|Adventurer's Guide]]!_
 
 #### Level 5 - Goblin Fighter
 
