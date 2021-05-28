@@ -7,8 +7,11 @@
         "id": "336df0b92d1416a2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,5 +87,13 @@
     "collapsed": true
   },
   "active": "336df0b92d1416a2",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Home.md",
+    "Prepare For Adventure/Home.md",
+    "Choose Your Own Adventure/Index.md",
+    "Adventurer's Guide/Untitled.md",
+    "Choose Your Own Adventure/Untitled.md",
+    "Prepare For Adventure/Untitled.md",
+    "Untitled.md"
+  ]
 }
