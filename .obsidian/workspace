@@ -6,13 +6,28 @@
       {
         "id": "336df0b92d1416a2",
         "type": "leaf",
+        "dimension": 45.32051282051282,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Adventurer's Guide/Adventurer's Guide to Bash.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "08106f886b2e83cc"
+      },
+      {
+        "id": "fe23b0e7a84e5240",
+        "type": "leaf",
+        "dimension": 54.679487179487175,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Adventurer's Guide/Adventurer's Guide to Bash.md",
+            "mode": "source"
+          }
+        },
+        "group": "08106f886b2e83cc"
       }
     ],
     "direction": "vertical"
@@ -68,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Adventurer's Guide/Adventurer's Guide to Bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +99,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Adventurer's Guide/Adventurer's Guide to Bash.md"
+              }
             }
           }
         ]
@@ -96,12 +113,15 @@
   },
   "active": "336df0b92d1416a2",
   "lastOpenFiles": [
-    "Home.md",
-    "Prepare For Adventure/Home.md",
-    "Choose Your Own Adventure/Index.md",
-    "Adventurer's Guide/Untitled.md",
+    "Adventurer's Guide/Adventurer's Guide to Bash.md",
+    "Choose Your Own Adventure/Intro.md",
     "Choose Your Own Adventure/Untitled.md",
-    "Prepare For Adventure/Untitled.md",
-    "Untitled.md"
+    "The Adventure Begins/Untitled.md",
+    "Adventurer's Guide/Untitled.md",
+    "Adventurer's Guide/Adventurer's Guide.md",
+    "Prepare For Adventure/Prepare for Adventure.md",
+    "Prepare For Adventure/Intro.md",
+    "Adventurer's Guide/Intro.md",
+    "Start Here.md"
   ]
 }
