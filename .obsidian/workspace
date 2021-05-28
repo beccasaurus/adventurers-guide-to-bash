@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide to Bash.md",
+            "file": "Adventurer's Guide.md",
             "mode": "source"
           }
         },
@@ -23,8 +23,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide to Bash.md",
-            "mode": "preview"
+            "file": "Adventurer's Guide.md",
+            "mode": "source"
           }
         },
         "group": "44e70618a07b7b45"
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adventurer's Guide to Bash.md",
+                "file": "Adventurer's Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adventurer's Guide to Bash.md"
+                "file": "Adventurer's Guide.md"
               }
             }
           }
@@ -114,14 +114,14 @@
   "active": "336df0b92d1416a2",
   "lastOpenFiles": [
     "Adventurer's Guide to Bash.md",
+    "Adventurer's Guide/Untitled.md",
+    "Adventurer's Guide/Variables/Untitled.md",
+    "Prepare For Adventure/Installing Bash/Untitled.md",
+    "Prepare For Adventure/Untitled.md",
+    "Prepare For Adventure/Prepare for Adventure.md",
+    "Adventurer's Guide/Images/Attribution.md",
     "Adventurer's Guide/Adventurer's Guide to Bash.md",
     "Adventurer's Guide/Adventurer's Guide.md",
-    "Choose Your Own Adventure/Intro.md",
-    "Choose Your Own Adventure/Untitled.md",
-    "The Adventure Begins/Untitled.md",
-    "Adventurer's Guide/Untitled.md",
-    "Prepare For Adventure/Prepare for Adventure.md",
-    "Prepare For Adventure/Intro.md",
-    "Adventurer's Guide/Intro.md"
+    "The Adventure Begins/The Adventure Begins.md"
   ]
 }
