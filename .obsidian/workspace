@@ -6,28 +6,28 @@
       {
         "id": "336df0b92d1416a2",
         "type": "leaf",
-        "dimension": 45.32051282051282,
+        "dimension": 50,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide/Adventurer's Guide to Bash.md",
+            "file": "Adventurer's Guide to Bash.md",
             "mode": "source"
           }
         },
-        "group": "08106f886b2e83cc"
+        "group": "44e70618a07b7b45"
       },
       {
-        "id": "fe23b0e7a84e5240",
+        "id": "ba7dabb8979e391b",
         "type": "leaf",
-        "dimension": 54.679487179487175,
+        "dimension": 50,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide/Adventurer's Guide to Bash.md",
-            "mode": "source"
+            "file": "Adventurer's Guide to Bash.md",
+            "mode": "preview"
           }
         },
-        "group": "08106f886b2e83cc"
+        "group": "44e70618a07b7b45"
       }
     ],
     "direction": "vertical"
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adventurer's Guide/Adventurer's Guide to Bash.md",
+                "file": "Adventurer's Guide to Bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adventurer's Guide/Adventurer's Guide to Bash.md"
+                "file": "Adventurer's Guide to Bash.md"
               }
             }
           }
@@ -113,15 +113,15 @@
   },
   "active": "336df0b92d1416a2",
   "lastOpenFiles": [
+    "Adventurer's Guide to Bash.md",
     "Adventurer's Guide/Adventurer's Guide to Bash.md",
+    "Adventurer's Guide/Adventurer's Guide.md",
     "Choose Your Own Adventure/Intro.md",
     "Choose Your Own Adventure/Untitled.md",
     "The Adventure Begins/Untitled.md",
     "Adventurer's Guide/Untitled.md",
-    "Adventurer's Guide/Adventurer's Guide.md",
     "Prepare For Adventure/Prepare for Adventure.md",
     "Prepare For Adventure/Intro.md",
-    "Adventurer's Guide/Intro.md",
-    "Start Here.md"
+    "Adventurer's Guide/Intro.md"
   ]
 }
