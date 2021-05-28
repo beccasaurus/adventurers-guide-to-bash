@@ -35,7 +35,15 @@ You can view the public wiki where I'm drafting the book at [`adventurers-guide.
 
 [guide]: https://adventurers-guide.sh
 
-> As of June 2021, I legit _just setup this wiki_ and there may be very little content.
+> ℹ️ As of June 2021, I legit _just setup this wiki_ and there may be very little content.
+
+> <img alt="CC BY-NC-SA" src="Adventurer's%20Guide/Images/by-nc-sa.png" height=42 align=right />
+
+All content is licensed under the [Creative Commons Attribution Non Commercial Share Alike 4.0 license][cc].
+
+[cc]: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+---
 
 ### Table of Contents
 
