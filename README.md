@@ -2,7 +2,7 @@
 
 > Welcome to the Adventurer's Guide to Bash
 
-![Woman with wolf](Adventurer's%20Guide/Images/Woman-Wolf.jpg)
+![Woman with wolf](Adventurer's%20Guide/Images/AdventurersGuideToBash.jpg)
 
 ---
 
