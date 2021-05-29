@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "74a2c92f7d1a35e3",
+        "id": "b3dc03e4747622b6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide/Numbers/Arithmetic.md",
+            "file": "Adventurer's Guide/Lessons/Variables/Numbers.md",
             "mode": "source"
           }
         },
-        "group": "1a7dc1cda2249487"
+        "group": "6b92dabcefba6912"
       },
       {
-        "id": "7317f26d78c15388",
+        "id": "c65e08fabbbd7c6f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide/Numbers/Arithmetic.md",
+            "file": "Adventurer's Guide/Lessons/Variables/Numbers.md",
             "mode": "preview"
           }
         },
-        "group": "1a7dc1cda2249487"
+        "group": "6b92dabcefba6912"
       }
     ],
     "direction": "vertical"
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adventurer's Guide/Numbers/Arithmetic.md",
+                "file": "Adventurer's Guide/Lessons/Variables/Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adventurer's Guide/Numbers/Arithmetic.md"
+                "file": "Adventurer's Guide/Lessons/Variables/Numbers.md"
               }
             }
           },
@@ -115,19 +115,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330
+    "width": 229
   },
-  "active": "74a2c92f7d1a35e3",
+  "active": "b3dc03e4747622b6",
   "lastOpenFiles": [
-    "Adventurer's Guide/Numbers/Arithmetic.md",
     "Adventurer's Guide/Lessons/Variables/Numbers.md",
+    "Adventurer's Guide/Numbers/Arithmetic.md",
+    "Adventurer's Guide/Lessons/Conditionals.md",
+    "Adventurer's Guide/Lessons/Loops.md",
+    "Adventurer's Guide/Lessons/Untitled.md",
     "Adventurer's Guide/Lessons/Variables.md",
     "Adventurer's Guide/Numbers/Untitled.md",
     "Adventurer's Guide/Adventurer's Guide.md",
     "Adventurer's Guide/Lessons/Variables/Variables.md",
-    "Adventurer's Guide/Style Guide/Untitled.md",
-    "Adventurer's Guide/Lessons/Variables/Lists.md",
-    "Adventurer's Guide/Lessons/Lists.md",
-    "Adventurer's Guide/Variables/Text.md"
+    "Adventurer's Guide/Style Guide/Untitled.md"
   ]
 }

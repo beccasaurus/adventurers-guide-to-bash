@@ -125,6 +125,26 @@ This is often useful when you _don't know the value_ of a variable (_the program
 > - `declare -i foo=20 bar`
 > - `declare -i foo=20 bar=40 baz=60`
 
+## Declaring With an Expression
+When declaring a variable with `declare -i`, an expression may be provided to set the initial value of the variable:
+
+```shell
+declare -i a=1 b="a+1" c="b+1"
+echo $a
+echo $b
+echo $c
+```
+
+If you run the example above in the terminal, you will get the output:
+
+```
+1
+2
+3
+```
+
+This will be covered more in the upcoming [[Arithmetic]] section.
+
 ## Modifying Integer Variables
 
 Once a variable has been **declared as an integer** using `declare -i`, there are 3 ways to set or modify the variable's value:
