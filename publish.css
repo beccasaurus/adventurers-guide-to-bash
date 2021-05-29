@@ -640,3 +640,9 @@ pre[class*='language-'] {
 .published-container.is-readable-line-width .site-body-center-column {
   flex: 0 1 1200px !important;
 }
+
+/* H1 underlines */
+
+div.markdown-preview-view h1 {
+  border-bottom: 2px solid #ff00ff;
+}

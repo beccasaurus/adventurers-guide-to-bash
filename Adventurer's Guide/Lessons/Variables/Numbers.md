@@ -1,10 +1,12 @@
-# ⚔️
+## ⚔️
 
-Numbers, numbers, numbers.
+- Previous: [[Variables]]
+- Next: [[Base Values]]
+
+**Numbers, numbers, numbers.**
 
 ![D6 Dice](Numbers.jpg)
 
----
 
 # Bash Numbers
 
@@ -17,7 +19,7 @@ In this section, you will learn how to work with numbers in Bash.
 
 ## Supported Numbers
 
-- Supported: Decimal Integers
+- Supported: Decimal Integers (_no decimal point values_)
 	- e.g. `1`, `2`, `3`, `4`, `5`, `100`, `1000`, etc
 	- _All the way up to _`9,223,372,036,854,775,808` 
 	- _Note: Bash does not support using the `,` in numbers_
@@ -43,7 +45,7 @@ dragon_strength=10
 goblin_strength=5
 ```
 
-This is **not** how we will declare integers, however.
+This is **not** how we will be declaring integers, however.
 
 **Here is why:**
 
@@ -74,6 +76,8 @@ Instead, to **ensure** your variables are integer values, we will use `declare`.
 
 The correct way to work with integers in Bash is to use `declare -i`.
 
+( _The `-i` stands for `integer`_ )
+
 I have updated the previous example to demonstrate how it works:
 
 ```shell
@@ -96,7 +100,17 @@ It breaks! _How wonderful!_ That's great, because it's not a number!
 
 Using `declare -i [variable name]` declares a variable **_as an integer_** and it will always be an integer, regardless of what value it's set to.
 
-> ℹ️ Setting a `declare -i` variable to a non-number will **not** always result in an error. When an integer is set to a single word _without spaces_, it will _**set the value to 0**_ instead of raising an error.
+Once a variable has been declared via `declare -i`, it can safely be set in other ways, e.g. using the `[variable name]=[variable value]` syntax.
+
+> ℹ️ Setting a `declare -i` variable to a non-number will **not** always result in an error. When an integer is set to `A - Z` text _without spaces_, it will _**set the value to 0**_ instead of raising an explicit error:
+> ```shell
+> declare -i strength=10
+> echo $strength
+> strength=SomeTextHere
+> echo $strength
+> ```
+> 
+> The above example will output `10` and then `0`.
 
 ## Declaring Without a Value
 
@@ -122,7 +136,7 @@ x is  and y is
 x is 10 and y is 20
 ```
 
-This is often useful when you _don't know the value_ of a variable (_the program will set the value later_), but you want to make _sure_ that the variable is treated as an integer.
+This is often useful when you _don't know the value_ of a variable (_the program will set the value later_), but you want to be **_certain_** that the variable is treated as an integer.
 
 > ℹ️ `declare -i` can declare multiple integer variables at once:
 > - `declare -i foo`
@@ -133,7 +147,7 @@ This is often useful when you _don't know the value_ of a variable (_the program
 When declaring a variable with `declare -i`, an expression may be provided to set the initial value of the variable:
 
 ```shell
-declare -i a=1 b="a+1" c="b+1"
+declare -i a="1 + 4" b="a + 1" c="b * 2"
 echo $a
 echo $b
 echo $c
@@ -142,36 +156,40 @@ echo $c
 If you run the example above in the terminal, you will get the output:
 
 ```
-1
-2
-3
+5
+6
+12
 ```
 
 This will be covered more in the upcoming [[Arithmetic]] section.
 
 ## Modifying Integer Variables
 
-Once a variable has been **declared as an integer** using `declare -i`, there are 3 ways to set or modify the variable's value:
+Once a variable has been **declared as an integer** using `declare -i`, there are 3 common ways to set or modify the variable's value:
 
 1. Simple: `[variable name]=[variable value]`
 3. Double Parentheses: `(( [variable name] = arithmetic expression ))`
 2. Let: `let [variable name]="[arithmetic expression]"`
+
+These will each be reviewed in the upcoming [[Arithmetic]] section.
+
+**But let's take a quick sneak-peek at what they look like!**
 
 ### Simple x=[value]
 
 This is the same method seen above, it is the simplest method:
 
 ```shell
-declare -i x
+declare -i x=5
 x=10
 x=20
 ```
 
+*This method only supports "static values", e.g. `10` or `20`, and does not perform arithmetic expressions.*
+
 ### Double Parentheses (( expression ))
 
 Double parentheses `(( ... ))` perform [[Arithmetic]] in Bash.
-
-[[Arithmetic]] will be covered next, but here is a brief example:
 
 ```shell
 declare -i x=10
@@ -188,13 +206,9 @@ If you run the example above in the terminal, you will get the output:
 15
 ```
 
-_We will look at this more in depth momentarily._
-
 ### Let x="expression"
 
 `let` allows you to easily set the value of a variable to the result of an [[Arithmetic]] expression.
-
-[[Arithmetic]] will be covered next, but here is a brief example:
 
 ```shell
 declare -i x=10
@@ -211,17 +225,18 @@ If you run the example above in the terminal, you will get the output:
 15
 ```
 
-_We will look at this more in depth momentarily._
+
 
 # Bash Numbers
 
 In this section, you learned how to **declare** integer variables in Bash.
 
-The next sections are **references** for performing [[Arithmetic]] and working with [[Decimal Point Values]] in Bash:
+Next up, you will learn more about using numbers in Bash!
 
+- [[Base Values|Using Different Bases]] _(Optional)_
 - [[Arithmetic]]
 - [[Decimal Point Values]]
 
-These sections are **not** part of the written lesson plan.
-
-Once you are done, be sure to return back to [[Variables]] for the next sections on [[Text]] and [[Lists]] variables.
+After numbers, you'll move on to:
+- [[Text]] variables
+- [[Lists]] variables

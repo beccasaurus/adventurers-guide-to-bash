@@ -1,8 +1,9 @@
-# ⚔️
+## ⚔️
 
-Welcome to the first section! Let's learn about Bash variables.
+- Previous: [[Lesson Plan]]
+- Next: [[Numbers]]
 
----
+**Welcome to the first section! Let's learn about Bash variables!**
 
 # Bash Variables
 
@@ -16,6 +17,8 @@ Bash supports 3 different types of variables:
 - [[Text]]
 - [[Lists]]
 
+#### Example of Using Variables in Bash:
+
 ```shell
 monster_name="Dragon"                 # Text
 monster_strength=10                   # Number
@@ -28,25 +31,39 @@ echo "$monster_name enemies: ${monster_enemies[*]}"
 # => Dragon enemies: Goblins Dwarves
 ```
 
-You will look at each variable type in depth.
+You will learn *each variable type* in depth.
 
-But first, let's overview the basics of Bash variables!
+**But first, let's overview the basics of Bash variables!**
 
 ---
 
-## Defining Variables
+# Declaring Variables
 
-In Bash, the simplest way to define a variable is by using the `[variable name]=[variable value]` syntax:
+In Bash, the simplest way to declare a variable is by using this syntax:
+
+`[variable name]=[variable value]`
 
 ```shell
 monster_strength=10
 ```
 
+The example above:
+- Creates a new variable with the name `monster_strength`
+- Assigns it the value `10`
+
 > Note: there are _**no spaces**_ between the variable name, `=`, and value.
 
-### Using Variables
+## declare
 
-Once a variable has been defined, its value can be **referenced** using the `$` sign, followed by the name of the variable:
+The `[variable name]=[variable value]` syntax is Bash shorthand for:  
+
+```shell
+declare [variable name]=[variable value]`
+```
+
+# Using Variables
+
+Once a variable has been declared, its value can be **referenced** using the `$` sign, followed by the name of the variable:
 
 ```shell
 monster_strength=10
@@ -56,8 +73,6 @@ echo $monster_strength # <--- notice the $
 Try pasting the above code into your terminal. It should print `10`.
 
 #### Variables in Text
-
-_Text variables will be covered in depth later in the lesson._
 
 Variables may also be used in text blocks wrapped by `"` quotes:
 
@@ -73,13 +88,15 @@ Try the above code in your terminal.
 
 It should print `Dragon has 10 strength`.
 
-## Variable Names
+_**Text variables will be covered in depth later in the lesson**._
+
+# Variable Names
 
 Variable names must:
 - Start with a letter `A - Z` (*uppercase*) or `a - z` (*lowercase*)
 - May only contain letters, numbers, and underscores.
 
-### What should I name my variable?
+## What should I name my variable?
 
 When writing programs, you should choose variable names that will help you remember what the program does when you revisit the code later.
 
@@ -102,7 +119,7 @@ There is no reason to shorten a variable like `monster_name` to `m`.
 
 This may save you a few keystrokes **now** _but you'll regret it **later**._
 
-#### Should I name variables `fooBar` or `foo_bar` or `FOO_BAR`?
+### Should I name variables `fooBar` or `foo_bar` or `FOO_BAR`?
 
 This is actually completely up to you!
 
@@ -112,7 +129,31 @@ If you choose to name your variables `soTheyLookLikeThis` then you should _not_ 
 
 _Note: once you're further along in your learning, you can read my [[Variable Names|recommendation for variable naming]] in the [[Style Guide]]._
 
-## Variable Types
+# Printing Variables
+
+In later sections, you will learn the Bash `declare` builtin.
+
+If you ever want to print the full Bash representation of a variable, use:
+
+`declare -p [variable name]`
+
+( _The `-p` stands for `print`_ )
+
+```shell
+monster_strength=10
+declare -p monster_strength
+```
+
+If you run the above code in a terminal, the output will be:
+
+```
+declare -- monster_strength="10"
+```
+
+**Why in the world would this be useful?**
+
+
+# Variable Types
 
 Bash supports 3 different types of variables:
 
@@ -122,7 +163,6 @@ Bash supports 3 different types of variables:
 
 Next, you will walk through each of these types and learn how to use them!
 
-You should start with **[[Numbers]]**.
-
+We'll be starting with [[Numbers]]!
 
 [^1]: Note: [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) is specifically a [command language](https://en.wikipedia.org/wiki/Command_language), not a general-purpose Programming Language.

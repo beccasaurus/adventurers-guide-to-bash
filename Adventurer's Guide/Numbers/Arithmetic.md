@@ -1,10 +1,8 @@
-# ⚔️
+## ⚔️
 
 Addition, Subtraction, Multiplication, Division, Exponentiation, and more!
 
 ![Arithmetic](Arithmetic.jpg)
-
----
 
 # Bash Arithmetic
 

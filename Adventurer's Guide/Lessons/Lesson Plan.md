@@ -1,7 +1,3 @@
-# ⚔️
-
----
-
 # Learning Bash
 
 Following is the lesson plan overview for **Learning Bash** _from scratch!_
@@ -13,12 +9,14 @@ It's _highly recommended_ to walk through the **Adventurer's Guide** in this ord
 > You you find lessons in the `Adventurer's Guide/Lessons` folder.
 > 
 > Every **Adventurer's Guide** page is referenced by one or more lessons.
+> 
+> *Look for the ⚔️ at the top of every page for navigation.*
 
 ## Table of Contents
 
 ### Variables
 
-- [[Variables|Basics]]
+- [[Variables|Basics]] `<--- Start Here`
 - [[Numbers]]
 - [[Text]]
 - [[Lists]]
@@ -54,3 +52,6 @@ It's _highly recommended_ to walk through the **Adventurer's Guide** in this ord
 
 
 ### Functions
+
+
+...
