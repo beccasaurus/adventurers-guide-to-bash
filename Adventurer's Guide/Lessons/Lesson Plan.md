@@ -1,7 +1,5 @@
 # ⚔️
 
-![Lesson Plan](LessonPlan.jpg)
-
 ---
 
 # Learning Bash

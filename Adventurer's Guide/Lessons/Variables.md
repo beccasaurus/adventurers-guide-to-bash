@@ -2,8 +2,6 @@
 
 Welcome to the first section! Let's learn about Bash variables.
 
-![Variables](Variables.jpg)
-
 ---
 
 # Bash Variables
@@ -28,10 +26,6 @@ echo "$monster_name has $monster_strength strength"
 
 echo "$monster_name enemies: ${monster_enemies[*]}"
 # => Dragon enemies: Goblins Dwarves
-
-function testing() {
-  a="b"
-}
 ```
 
 You will look at each variable type in depth.
