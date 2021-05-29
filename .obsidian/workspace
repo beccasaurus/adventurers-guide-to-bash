@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide/Lessons/Variables/Variables.md",
+            "file": "Adventurer's Guide/Numbers/Arithmetic.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide/Lessons/Variables/Variables.md",
+            "file": "Adventurer's Guide/Numbers/Arithmetic.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adventurer's Guide/Lessons/Variables/Variables.md",
+                "file": "Adventurer's Guide/Numbers/Arithmetic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adventurer's Guide/Lessons/Variables/Variables.md"
+                "file": "Adventurer's Guide/Numbers/Arithmetic.md"
               }
             }
           },
@@ -115,19 +115,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 330
   },
   "active": "74a2c92f7d1a35e3",
   "lastOpenFiles": [
+    "Adventurer's Guide/Numbers/Arithmetic.md",
+    "Adventurer's Guide/Lessons/Variables/Numbers.md",
+    "Adventurer's Guide/Lessons/Variables.md",
+    "Adventurer's Guide/Numbers/Untitled.md",
+    "Adventurer's Guide/Adventurer's Guide.md",
     "Adventurer's Guide/Lessons/Variables/Variables.md",
     "Adventurer's Guide/Style Guide/Untitled.md",
-    "Adventurer's Guide/Adventurer's Guide.md",
     "Adventurer's Guide/Lessons/Variables/Lists.md",
-    "Adventurer's Guide/Lessons/Variables.md",
     "Adventurer's Guide/Lessons/Lists.md",
-    "Adventurer's Guide/Variables/Text.md",
-    "Adventurer's Guide/Variables/Variables.md",
-    "Adventurer's Guide/Lists/Untitled.md",
-    "Adventurer's Guide/Text/Manipulating Text.md"
+    "Adventurer's Guide/Variables/Text.md"
   ]
 }
