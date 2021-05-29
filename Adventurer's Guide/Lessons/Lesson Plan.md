@@ -1,5 +1,3 @@
-# Learning Bash
-
 Following is the lesson plan overview for **Learning Bash** _from scratch!_
 
 It's _highly recommended_ to walk through the **Adventurer's Guide** in this order.
@@ -12,24 +10,24 @@ It's _highly recommended_ to walk through the **Adventurer's Guide** in this ord
 > 
 > *Look for the ⚔️ at the top of every page for navigation.*
 
-## Table of Contents
+# Table of Contents
 
-### Variables
+## Variables
 
 - [[Variables|Basics]] `<--- Start Here`
 - [[Numbers]]
 - [[Text]]
 - [[Lists]]
 
-### Conditionals
+## Conditionals
 
 - Conditional Basics
 
-### Loops
+## Loops
 
 - Loop Basics
 
-### Scripts
+## Scripts
 
 - Script Basics
 
@@ -51,7 +49,7 @@ It's _highly recommended_ to walk through the **Adventurer's Guide** in this ord
 - Standard Input
 
 
-### Functions
+## Functions
 
 
 ...

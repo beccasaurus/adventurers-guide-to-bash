@@ -3,8 +3,6 @@
 - Previous: [[Lesson Plan]]
 - Next: [[Numbers]]
 
-**Welcome to the first section! Let's learn about Bash variables!**
-
 # Bash Variables
 
 Like most programming languages[^1], Bash provides **variables**.

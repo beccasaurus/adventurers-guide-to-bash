@@ -1,4 +1,7 @@
-## ⚔️
+## ⚔️ Numbers
+
+- Previous: [[Base Values]]
+- Next: [[Decimal Point Values]]
 
 Addition, Subtraction, Multiplication, Division, Exponentiation, and more!
 
@@ -13,15 +16,15 @@ Bash supports 5 ways of performing arithmetic:
 - Let `let variable="expression"`
 - Expr `expr expression`
 
-These are all great for _different circumstances._
+> These all use the same syntax for [[#Arithmetic Expressions]].
 
-These all use the _same expression syntax_, however.
+Don't feel overwhelmed! Each of these is useful _in different circumstances,_ but you could *easily* write Bash for years and only use `((` and `$((`.
 
-First, let's take a look at the *different ways of performing arithmetic.*
+First, let's look at each of these 5 ways.
 
-Then, let's take a look at [[#Bash Arithmetic Expressions]].
+Then, let's take a look at the actual [[#Arithmetic Expressions]].
 
-# Double Parentheses `(( expression ))`
+# Double Parentheses
 
 Double Parentheses is generally used to:
 - **Update existing variables**
@@ -29,9 +32,9 @@ Double Parentheses is generally used to:
 *Note: Double Parentheses can also be used to:*
 - *Declare new variables (Note: you must `declare -i` beforehand)*
 
-Most math you perform in Bash will probably use `(( ... ))`
+**Most math you perform in Bash will probably use** `(( ... ))`
 
-Example:
+#### Example
 
 ```shell
 declare -i i=0
@@ -54,7 +57,120 @@ If you run the above code in a terminal, you will get this output:
 
 `(( ... ))` is commonly used to increment counters.
 
-But you can also perform [various arithmetic operations](https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html#Shell-Arithmetic):
+`(( ... ))` expressions can also be used for [[Conditionals]] and [[Loops]], as you'll learn later on!
+
+> Note: `(( ... ))` expressions do not output anything to the terminal!
+> To print or save the output of an expression use `$(( ... ))`.
+
+# Dollar Parentheses
+
+Dollar Parentheses (_aka [Arithmetic Expansion](https://www.gnu.org/software/bash/manual/html_node/Arithmetic-Expansion.html)_) is generally used to:
+- **Perform an operation and get the result**
+
+
+The main difference between `((...))` and `$((...))` is that `$((...))` **outputs the result of the expression:**
+
+```shell
+declare -i x=10
+
+result=$(( x + 10 ))
+
+echo $result
+```
+
+If you run the above code in a terminal, you get `20` as a `result`.
+
+
+**As a general rule:**
+- Use `$(( ))` to capture the result.
+- Use `(( ))` to modify values _without capturing the result._
+
+> *Note: variable values can also be modified using* `$(( ... ))`
+>
+> _For example: incrementing or decrementing a variable:_
+>
+> ```shell
+> declare -i x=10
+> 
+> result=$(( x++ ))
+> 
+> echo $result
+> echo $x
+> ```
+> 
+> *Running the above in the terminal will output:*
+> ```
+> 10
+> 11
+> ```
+> 
+> _If you want to increment a variable AND get the new value, use `++x` instead (aka "pre-increment")_
+
+# Declare
+
+Declare is generally used to:
+- **Declare new variables**
+
+As seen in [[Numbers#Declaring With an Expression]], `declare -i` can accept an expression. The result will be used as the initial value of the variable:
+
+```shell
+declare -i goblin_strength=10
+declare -i dragon_strength="goblin_strength * 5"
+echo $goblin_strength
+echo $dragon_strength
+```
+
+Running the above code will output `10` followed by `50`.
+
+# Let
+
+Let is generally used to:
+- **Perform an operation and store the result in a variable**
+
+Many people use `let` _in place of_ `declare -i`:
+
+```shell
+# ✗ DO NOT DO THIS
+let "goblin_strength = 10"
+let "dragon_strength = goblin_strength * 5"
+```
+
+This code may _look appealing_ but it is _incorrect_ **unless** used _after_ configuring each variable using `declare -i`
+
+```shell
+# ✓ DO THIS
+declare -i goblin_strength dragon_strength
+let "goblin_strength = 10"
+let "dragon_strength = goblin_strength * 5"
+```
+
+This may seem a bit redundant, but it will save you in the future!
+
+> Reminder for **Why** this is the correct way:
+> [[Numbers#Declaring Integer Variables]]
+
+Note: as opposed to `declare -i`, using `let` **_does_** allow you to put spaces between the variable name, the `=`, and the value.
+
+`let` is essentially "syntax sugar" for `(( ))`. These are equivalent:
+
+```shell
+let "x = 10" # These two statements are
+(( x = 10 )) # equivalent.
+```
+
+The main difference is that `let` **_requires_** using quoted text (`"` or `'`).
+
+# Expr
+Expr is generally not used.
+
+*Note: Expr **can** also be used to:*
+- *Update existing variables*
+- Perform an operation and **store the result in a variable**
+
+
+# Arithmetic Expressions
+
+Bash supports [various arithmetic operations](https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html#Shell-Arithmetic):
 - **Addition** `+`
 - **Subtraction** `-`
 - **Multiplication** `**`
@@ -65,70 +181,3 @@ But you can also perform [various arithmetic operations](https://www.gnu.org/sof
 - **Pre-increment/decrement** `++x` `--x`
 - **Post-increment/decrement** `x++` `x--`
 - [and more](https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html#Shell-Arithmetic)
-
-`(( ... ))` expressions can also be used for [[Conditionals]] and [[Loops]], as you'll learn later on!
-
-> Note: `(( ... ))` expressions do not output anything to the terminal!
-> To print or save the output of an expression use `$(( ... ))`.
-
-# Dollar Parentheses `$(( expression ))`
-
-Dollar Parentheses (_aka [Arithmetic Expansion](https://www.gnu.org/software/bash/manual/html_node/Arithmetic-Expansion.html)_) is generally used to:
-- Perform an operation and **store the result in a variable**
-
-*Note: Double Parentheses **can** also be used to:*
-- *Declare new variables (Note: you must `declare -i` beforehand)*
-- *Update existing variables*
-
-The main difference between `((...))` and `$((...))` is that `$((...))` **outputs the result of the expression:**
-
-```shell
-declare -i x=10
-
-# (( )) increments the value without outputing to the terminal
-(( x++ ))
-echo "x is $x"
-
-# $(( )) outputs a value which can be used, e.g. by providing to echo
-echo "Now x is $(( ++x ))"
-```
-
-If you run the above code in a terminal, you will get this output:
-
-```
-x is 11
-Now x is 12
-```
-
-Use `$(( ))` to capture the result.
-
-Use `(( ))` to modify values _without capturing the result._
-
-# Declare `declare -i variable="expression"`
-
-Declare is generally used to:
-- *Declare new variables
-
-*Note: Declare **can** also be used to:*
-- *Update existing variables*
-- Perform an operation and **store the result in a variable**
-
-# Let `let variable="expression"`
-
-Let is generally used to:
-- Perform an operation and **store the result in a variable**
-
-*Note: Let **can** also be used to:*
-- *Declare new variables (Note: you must `declare -i` beforehand)*
-- *Update existing variables*
-
-
-# Expr `expr expression`
-Expr is generally not used.
-
-*Note: Expr **can** also be used to:*
-- *Update existing variables*
-- Perform an operation and **store the result in a variable**
-
-
-# Bash Arithmetic Expressions
