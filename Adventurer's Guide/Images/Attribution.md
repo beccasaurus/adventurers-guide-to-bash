@@ -9,4 +9,10 @@
 | Book Moon      | https://pixabay.com/photos/book-manipulation-nature-fantasy-2152349/         |
 | Floating Book  | https://pixabay.com/illustrations/book-landscape-read-leaves-5280551/        |
 | Magic Book     | https://pixabay.com/illustrations/book-mysticism-magic-mystical-1769625/     |
+| Fairy Tale     | https://pixabay.com/illustrations/fairy-tale-vintage-old-antique-1653150/    |
+| Library        | https://pixabay.com/photos/library-woman-fantasy-light-lamps-6055211/        |
+| Landscape Book | https://pixabay.com/photos/book-live-knowledge-secret-wisdom-4302990/        |
+| Unicorn        | https://pixabay.com/illustrations/unicorn-fairy-tales-1999549/               |
+| Clock          | https://pixabay.com/illustrations/steampunk-gears-pipes-brass-door-5131049/  |
+| Door           | https://pixabay.com/illustrations/steampunk-gears-pipes-brass-door-3222894/  |
 |                |                                                                              |

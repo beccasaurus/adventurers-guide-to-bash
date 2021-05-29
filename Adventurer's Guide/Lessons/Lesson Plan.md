@@ -8,7 +8,7 @@
 
 Following is the lesson plan overview for **Learning Bash** _from scratch!_
 
-It's _highly recommended_ to walk through the Adventurer's Guide in this order.
+It's _highly recommended_ to walk through the **Adventurer's Guide** in this order.
 
 > The **Table of Contents** below walks through all **Lesson Plans**.
 >
@@ -38,6 +38,9 @@ It's _highly recommended_ to walk through the Adventurer's Guide in this order.
 - Script Basics
 
 #### User Input
+
+- Arguments
+- Reading Input
 
 ##### Arguments
 - Argument Basics
