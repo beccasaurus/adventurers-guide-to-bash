@@ -28,6 +28,10 @@ echo "$monster_name has $monster_strength strength"
 
 echo "$monster_name enemies: ${monster_enemies[*]}"
 # => Dragon enemies: Goblins Dwarves
+
+function testing() {
+  a="b"
+}
 ```
 
 You will look at each variable type in depth.
