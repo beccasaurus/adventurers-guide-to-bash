@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide/Lessons/Variables/Numbers.md",
+            "file": "Adventurer's Guide/Lessons/Variables.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide/Lessons/Variables/Numbers.md",
+            "file": "Adventurer's Guide/Lessons/Variables.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adventurer's Guide/Lessons/Variables/Numbers.md",
+                "file": "Adventurer's Guide/Lessons/Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adventurer's Guide/Lessons/Variables/Numbers.md"
+                "file": "Adventurer's Guide/Lessons/Variables.md"
               }
             }
           },
@@ -119,12 +119,12 @@
   },
   "active": "b3dc03e4747622b6",
   "lastOpenFiles": [
-    "Adventurer's Guide/Lessons/Variables/Numbers.md",
+    "Adventurer's Guide/Lessons/Variables.md",
     "Adventurer's Guide/Numbers/Arithmetic.md",
+    "Adventurer's Guide/Lessons/Variables/Numbers.md",
     "Adventurer's Guide/Lessons/Conditionals.md",
     "Adventurer's Guide/Lessons/Loops.md",
     "Adventurer's Guide/Lessons/Untitled.md",
-    "Adventurer's Guide/Lessons/Variables.md",
     "Adventurer's Guide/Numbers/Untitled.md",
     "Adventurer's Guide/Adventurer's Guide.md",
     "Adventurer's Guide/Lessons/Variables/Variables.md",

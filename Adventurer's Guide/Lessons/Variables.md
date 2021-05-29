@@ -2,7 +2,7 @@
 
 Welcome to the first section! Let's learn about Bash variables.
 
-![Adventurer's Guide](AdventurersGuide.jpg)
+![Variables](Variables.jpg)
 
 ---
 

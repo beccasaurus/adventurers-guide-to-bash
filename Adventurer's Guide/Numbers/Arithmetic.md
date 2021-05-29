@@ -1,6 +1,6 @@
 # ⚔️
 
-Addition, Subtraction, Multiplication, Division, Modulo, Exponentiation.
+Addition, Subtraction, Multiplication, Division, Exponentiation, and more!
 
 ![Arithmetic](Arithmetic.jpg)
 
@@ -56,13 +56,17 @@ If you run the above code in a terminal, you will get this output:
 
 `(( ... ))` is commonly used to increment counters.
 
-But you can also perform:
+But you can also perform [various arithmetic operations](https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html#Shell-Arithmetic):
 - **Addition** `+`
 - **Subtraction** `-`
 - **Multiplication** `**`
 - **Division** `/`
-- **Modulo** `%`
+- **Remainder** `%`
 - **Exponentiation** `**`
+- **Bitwise Shifts** `<<` `>>`
+- **Pre-increment/decrement** `++x` `--x`
+- **Post-increment/decrement** `x++` `x--`
+- [and more](https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html#Shell-Arithmetic)
 
 `(( ... ))` expressions can also be used for [[Conditionals]] and [[Loops]], as you'll learn later on!
 
@@ -77,6 +81,30 @@ Dollar Parentheses (_aka [Arithmetic Expansion](https://www.gnu.org/software/bas
 *Note: Double Parentheses **can** also be used to:*
 - *Declare new variables (Note: you must `declare -i` beforehand)*
 - *Update existing variables*
+
+The main difference between `((...))` and `$((...))` is that `$((...))` **outputs the result of the expression:**
+
+```shell
+declare -i x=10
+
+# (( )) increments the value without outputing to the terminal
+(( x++ ))
+echo "x is $x"
+
+# $(( )) outputs a value which can be used, e.g. by providing to echo
+echo "Now x is $(( ++x ))"
+```
+
+If you run the above code in a terminal, you will get this output:
+
+```
+x is 11
+Now x is 12
+```
+
+Use `$(( ))` to capture the result.
+
+Use `(( ))` to modify values _without capturing the result._
 
 # Declare `declare -i variable="expression"`
 
