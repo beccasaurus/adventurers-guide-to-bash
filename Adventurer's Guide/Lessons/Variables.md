@@ -44,7 +44,7 @@ In Bash, the simplest way to define a variable is by using the `[variable name]=
 monster_strength=10
 ```
 
-Variables are useful so your program can re-use a value in multiple places.
+> Note: there are _**no spaces**_ between the variable name, `=`, and value.
 
 ### Using Variables
 

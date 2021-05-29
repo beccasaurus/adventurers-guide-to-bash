@@ -11,24 +11,28 @@ Numbers, numbers, numbers.
 In this section, you will learn how to work with numbers in Bash.
 
 - [[Numbers#Declaring Integer Variables|Declaring Integer Values]]
+- [[Base Values|Using Different Bases]]
 - [[Arithmetic]]
-- [[Decimal Values]]
+- [[Decimal Point Values]]
 
----
+## Supported Numbers
 
-# Integers and Decimals
-
-Bash does not natively support numbers with decimal points:
-
-- Supported: `1`, `2`, `3`, `4`, `5`, `100`, `1000`, etc
+- Supported: Decimal Integers
+	- e.g. `1`, `2`, `3`, `4`, `5`, `100`, `1000`, etc
 	- _All the way up to _`9,223,372,036,854,775,808` 
 	- _Note: Bash does not support using the `,` in numbers_
+- Supported: Octal numbers
+- Supported: Hexadecimal numbers
+- Supported: Any other base between 2 and 64
+
+## Unsupported
+
+Bash does **not** natively support numbers with **decimal points**:
 - Unsupported: `3.14`, `1.1`, `2.1`, `4.20`, etc
 
-This section focuses on working with _**integer** values._
+ℹ️ There are ways to work with [[Decimal Point Values]] using Bash.
 
-> ℹ️ There are ways to work with [[Decimal Values]] using Bash.
-> This will be covered later in the lesson.
+This will be covered later in the lesson.
 
 # Declaring Integer Variables
 
@@ -213,10 +217,10 @@ _We will look at this more in depth momentarily._
 
 In this section, you learned how to **declare** integer variables in Bash.
 
-The next sections are **references** for performing [[Arithmetic]] and working with [[Decimal Values]] in Bash:
+The next sections are **references** for performing [[Arithmetic]] and working with [[Decimal Point Values]] in Bash:
 
 - [[Arithmetic]]
-- [[Decimal Values]]
+- [[Decimal Point Values]]
 
 These sections are **not** part of the written lesson plan.
 
