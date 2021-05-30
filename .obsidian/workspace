@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide/Numbers/Arithmetic.md",
+            "file": "Adventurer's Guide/Numbers/Dynamic Expressions.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide/Numbers/Arithmetic.md",
+            "file": "Adventurer's Guide/Numbers/Dynamic Expressions.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adventurer's Guide/Numbers/Arithmetic.md",
+                "file": "Adventurer's Guide/Numbers/Dynamic Expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adventurer's Guide/Numbers/Arithmetic.md"
+                "file": "Adventurer's Guide/Numbers/Dynamic Expressions.md"
               }
             }
           },
@@ -119,15 +119,15 @@
   },
   "active": "b3dc03e4747622b6",
   "lastOpenFiles": [
-    "Adventurer's Guide/Numbers/Arithmetic.md",
+    "Adventurer's Guide/Numbers/Untitled.md",
     "Adventurer's Guide/Lessons/Variables/Numbers.md",
-    "Adventurer's Guide/Numbers/Base Values.md",
+    "Adventurer's Guide/Numbers/Arithmetic.md",
     "Adventurer's Guide/Lessons/Variables.md",
+    "Adventurer's Guide/Numbers/Base Values.md",
     "Adventurer's Guide/Lessons/Lesson Plan.md",
     "Adventurer's Guide/Lessons/Loops.md",
     "Adventurer's Guide/Lessons/Conditionals.md",
     "Adventurer's Guide/Lessons/Variables/Text.md",
-    "Adventurer's Guide/Numbers/Decimal Point Values.md",
-    "Adventurer's Guide/Lessons/Variables/Lists.md"
+    "Adventurer's Guide/Numbers/Decimal Point Values.md"
   ]
 }

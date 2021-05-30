@@ -100,7 +100,7 @@ It breaks! _How wonderful!_ That's great, because it's not a number!
 
 Using `declare -i [variable name]` declares a variable **_as an integer_** and it will always be an integer, regardless of what value it's set to.
 
-Once a variable has been declared via `declare -i`, it can safely be set in other ways, e.g. using the `[variable name]=[variable value]` syntax.
+Once a variable has been declared via `declare -i`, it can somewhat safely[^1] be set in other ways, e.g. using the `[variable name]=[variable value]` syntax.
 
 > ℹ️ Setting a `declare -i` variable to a non-number will **not** always result in an error. When an integer is set to `A - Z` text _without spaces_, it will _**set the value to 0**_ instead of raising an explicit error:
 > ```shell
@@ -111,6 +111,8 @@ Once a variable has been declared via `declare -i`, it can safely be set in othe
 > ```
 > 
 > The above example will output `10` and then `0`.
+> 
+> You can use [[Arithmetic#Let|let]] or [[Arithmetic#Double Parentheses|(( ... ))]] to force an error!
 
 ## Declaring Without a Value
 
@@ -163,11 +165,22 @@ If you run the example above in the terminal, you will get the output:
 
 This will be covered more in the upcoming [[Arithmetic]] section.
 
+> ⚠️ Warning: `declare -i x="Hello"` does **not fail**.
+> 
+> It is best practice to use `(( ... ))` or `let` instead:
+> ```shell
+> declare -i x
+> 
+> (( x = Hello )) # <-- this fails! ✓
+> let x=Hello     # <-- this fails! ✓
+> let "x = Hello" # <-- this fails! ✓
+> ```
+
 ## Modifying Integer Variables
 
 Once a variable has been **declared as an integer** using `declare -i`, there are 3 common ways to set or modify the variable's value:
 
-1. Simple: `[variable name]=[variable value]`
+1. Simple: `[variable name]=[variable value]` (_Not recommended_)
 3. Double Parentheses: `(( [variable name] = arithmetic expression ))`
 2. Let: `let [variable name]="[arithmetic expression]"`
 
@@ -186,6 +199,12 @@ x=20
 ```
 
 *This method only supports "static values", e.g. `10` or `20`, and does not perform arithmetic expressions.*
+
+> **This is not recommended.**  
+> **Please use `(( ... ))` or `let`.**
+
+> ℹ️ Note: if you try to set `x="Hello"`, this will **not** cause an error.
+> Both `(( x = Hello ))` and `let "x = Hello"` **do** fail (_which is good_)
 
 ### Double Parentheses (( expression ))
 
@@ -240,3 +259,5 @@ Next up, you will learn more about using numbers in Bash!
 After numbers, you'll move on to:
 - [[Text]] variables
 - [[Lists]] variables
+
+[^1]: Even if a variable is declared with `declare -i`, trying `varname=Hello` will set the variable to `0` _but_ it will not _fail_ (_it returns a 0 exit code_). If you want to ensure that your script fails when an invalid value is given to an integer value, use `let` or `(( ... ))` to assign variable values. This is the safest and recommended way.

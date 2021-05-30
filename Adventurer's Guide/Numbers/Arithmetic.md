@@ -43,7 +43,7 @@ echo $i
 (( i++ ))
 echo $i
 
-(( i++ ))
+(( i += 5 ))
 echo $i
 ```
 
@@ -52,7 +52,7 @@ If you run the above code in a terminal, you will get this output:
 ```
 0
 1
-2
+6
 ```
 
 `(( ... ))` is commonly used to increment counters.
@@ -60,7 +60,7 @@ If you run the above code in a terminal, you will get this output:
 `(( ... ))` expressions can also be used for [[Conditionals]] and [[Loops]], as you'll learn later on!
 
 > Note: `(( ... ))` expressions do not output anything to the terminal!
-> To print or save the output of an expression use `$(( ... ))`.
+> To print or save the output of an arithmetic expression use `$(( ... ))`.
 
 # Dollar Parentheses
 
@@ -80,9 +80,22 @@ echo $result
 
 If you run the above code in a terminal, you get `20` as a `result`.
 
+You could also `echo` the result directly without using a variable:
+
+```shell
+declare -i x=10
+
+echo $(( x + 10 ))
+```
+
+Arithmetic Expansion (`$(( ... ))`) also works within quoted text:
+
+```shell
+echo "The result is: $(( x + 10 ))"
+```
 
 **As a general rule:**
-- Use `$(( ))` to capture the result.
+- Use `$(( ))` to capture or output the result of an expression.
 - Use `(( ))` to modify values _without capturing the result._
 
 > *Note: variable values can also be modified using* `$(( ... ))`
@@ -120,7 +133,14 @@ echo $goblin_strength
 echo $dragon_strength
 ```
 
-Running the above code will output `10` followed by `50`.
+Running the above code will output:
+
+```
+10
+50
+```
+
+This is a useful way to assign the initial value of an integer.
 
 # Let
 
@@ -130,7 +150,7 @@ Let is generally used to:
 Many people use `let` _in place of_ `declare -i`:
 
 ```shell
-# ✗ DO NOT DO THIS
+# ✗ DON'T DO THIS
 let "goblin_strength = 10"
 let "dragon_strength = goblin_strength * 5"
 ```
@@ -139,7 +159,7 @@ This code may _look appealing_ but it is _incorrect_ **unless** used _after_ con
 
 ```shell
 # ✓ DO THIS
-declare -i goblin_strength dragon_strength
+declare -i goblin_strength dragon_strength # <---
 let "goblin_strength = 10"
 let "dragon_strength = goblin_strength * 5"
 ```
@@ -149,7 +169,13 @@ This may seem a bit redundant, but it will save you in the future!
 > Reminder for **Why** this is the correct way:
 > [[Numbers#Declaring Integer Variables]]
 
-Note: as opposed to `declare -i`, using `let` **_does_** allow you to put spaces between the variable name, the `=`, and the value.
+Note: as opposed to `declare -i`, using `let` **_does_** allow you to put **spaces** between the variable name, the `=`, and the value:
+
+```shell
+declare -i x=5 # <-- no spaces before/after =
+let "y = 10"   # <-- spaces allowed before/after =
+               #     but quotes are *required*
+```
 
 `let` is essentially "syntax sugar" for `(( ))`. These are equivalent:
 
@@ -160,12 +186,13 @@ let "x = 10" # These two statements are
 
 The main difference is that `let` **_requires_** using quoted text (`"` or `'`).
 
-# Expr
-Expr is generally not used.
+Also, some people simply prefer the syntax of: `let "x = 10"`.
 
-*Note: Expr **can** also be used to:*
-- *Update existing variables*
-- Perform an operation and **store the result in a variable**
+# Expr
+Expr is generally not used. **Don't use it.**
+
+
+
 
 
 # Arithmetic Expressions
