@@ -1,3 +1,9 @@
+## ⚔️
+
+- Prerequisites: [[Prepare for Adventure]]
+
+---
+
 Following is the lesson plan overview for **Learning Bash** _from scratch!_
 
 It's _highly recommended_ to walk through the **Adventurer's Guide** in this order.
@@ -14,7 +20,7 @@ It's _highly recommended_ to walk through the **Adventurer's Guide** in this ord
 
 ## Variables
 
-- [[Variables|Basics]] `<--- Start Here`
+- [[Variables]] `<--- Start Here`
 - [[Numbers]]
 - [[Text]]
 - [[Lists]]

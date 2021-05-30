@@ -17,7 +17,9 @@ Choose your **experience level** to begin your journey:
 > _You might even use the terminal daily._
 > 
 > _But do you know the difference between Bash and other shells?_
-> 
+>
+> _Experienced users, click through as a quick prerequisite._
+>
 > _Head on over to [[Prepare for Adventure]]!_
 
 #### Level 3 - Alchemist's Apprentice
@@ -32,7 +34,7 @@ Choose your **experience level** to begin your journey:
 > 
 > _What is the difference between `declare` and `local`?_
 > 
-> _Learn Bash the way you'd learn a programming language!_
+> _**Learn Bash the way you'd learn a programming language!**_
 > 
 > _Head on over to the [[Adventurer's Guide/Adventurer's Guide|Adventurer's Guide]]!_
 
@@ -75,6 +77,20 @@ Choose your **experience level** to begin your journey:
 > _Head on over to [[Choose Your Own Adventure]]._
 
 ---
+
+#### Preface
+
+Read the book preface: [[Preface]]
+
+#### About the Author
+
+Find out more about the author: [[@beccasaurus]]
+
+#### About the Book
+
+How is this book different from other books about Bash?
+
+Read the philosophy behind this book: [[About the Book]]
 
 #### GitHub Source
 

@@ -9,23 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide/Numbers/Dynamic Expressions.md",
+            "file": "About the Book.md",
             "mode": "source"
           }
         },
-        "group": "6b92dabcefba6912"
+        "group": "1724e39095a1b343"
       },
       {
-        "id": "c65e08fabbbd7c6f",
+        "id": "cfb05c77f3cf047c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Adventurer's Guide/Numbers/Dynamic Expressions.md",
+            "file": "About the Book.md",
             "mode": "preview"
           }
         },
-        "group": "6b92dabcefba6912"
+        "group": "1724e39095a1b343"
       }
     ],
     "direction": "vertical"
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adventurer's Guide/Numbers/Dynamic Expressions.md",
+                "file": "About the Book.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adventurer's Guide/Numbers/Dynamic Expressions.md"
+                "file": "About the Book.md"
               }
             }
           },
@@ -119,15 +119,15 @@
   },
   "active": "b3dc03e4747622b6",
   "lastOpenFiles": [
-    "Adventurer's Guide/Numbers/Untitled.md",
-    "Adventurer's Guide/Lessons/Variables/Numbers.md",
-    "Adventurer's Guide/Numbers/Arithmetic.md",
+    "About the Book.md",
     "Adventurer's Guide/Lessons/Variables.md",
-    "Adventurer's Guide/Numbers/Base Values.md",
-    "Adventurer's Guide/Lessons/Lesson Plan.md",
-    "Adventurer's Guide/Lessons/Loops.md",
-    "Adventurer's Guide/Lessons/Conditionals.md",
-    "Adventurer's Guide/Lessons/Variables/Text.md",
-    "Adventurer's Guide/Numbers/Decimal Point Values.md"
+    "Adventurer's Guide.md",
+    "About The Book.md",
+    "Untitled.md",
+    "Preface.md",
+    "@beccasaurus.md",
+    "About the Author.md",
+    "ABOUT THE AUTHOR.md",
+    "Prepare For Adventure/Prepare for Adventure.md"
   ]
 }
