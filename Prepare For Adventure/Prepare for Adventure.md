@@ -9,12 +9,26 @@ Are you ready to prepare for a new adventure?
 Once prepared, you will be ready to go through the [[Adventurer's Guide/Adventurer's Guide|Adventurer's Guide]].
 
 **Prerequisites:**
-- 🖥️ A computer (_any ol' computer will do_)
+- 🖥️ Computer or 📱 Phone or Tablet
 - 🎓 A willingness to learn
 
 # Table of Contents
 
+## Installation
+
+First, let's get you up-and-running with Bash on your computer or phone or tablet!
+
+- **PC**
+	- [[Windows]]
+	- [[Mac]]
+	- [[Linux]]
+	- [[Chrome OS]]
+- **Mobile**
+	- [[Android]]
+	- [[iOS|iPhone / iPad]]
+
 ## Introduction
 
-- 
+- [[What is a Shell?]]
+- [[What is Bash?]]
 

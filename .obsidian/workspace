@@ -9,23 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "About the Book.md",
+            "file": "Prepare For Adventure/Installing Bash/Android.md",
             "mode": "source"
           }
         },
-        "group": "1724e39095a1b343"
+        "group": "bf2fe84662f65f68"
       },
       {
-        "id": "cfb05c77f3cf047c",
+        "id": "18ecf73c99421eb3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "About the Book.md",
+            "file": "Prepare For Adventure/Installing Bash/Android.md",
             "mode": "preview"
           }
         },
-        "group": "1724e39095a1b343"
+        "group": "bf2fe84662f65f68"
       }
     ],
     "direction": "vertical"
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "About the Book.md",
+                "file": "Prepare For Adventure/Installing Bash/Android.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "About the Book.md"
+                "file": "Prepare For Adventure/Installing Bash/Android.md"
               }
             }
           },
@@ -119,15 +119,15 @@
   },
   "active": "b3dc03e4747622b6",
   "lastOpenFiles": [
-    "About the Book.md",
-    "Adventurer's Guide/Lessons/Variables.md",
-    "Adventurer's Guide.md",
-    "About The Book.md",
-    "Untitled.md",
-    "Preface.md",
-    "@beccasaurus.md",
-    "About the Author.md",
-    "ABOUT THE AUTHOR.md",
-    "Prepare For Adventure/Prepare for Adventure.md"
+    "Prepare For Adventure/Installing Bash/Android.md",
+    "Adventurer's Guide/Images/Android/TermuxHelloWorld.jpg",
+    "Adventurer's Guide/Images/Android/AcodeAdventureFolder.jpg",
+    "Adventurer's Guide/Images/Android/AcodeAllow.jpg",
+    "Adventurer's Guide/Images/Attribution.md",
+    "Prepare For Adventure/Prepare for Adventure.md",
+    "Prepare For Adventure/Installing Bash/Untitled.md",
+    "Prepare For Adventure/Installing Bash/Apple iOS.md",
+    "Prepare For Adventure/Installing Bash/Mac OS X.md",
+    "Prepare For Adventure/Installing Bash/Mac iOS.md"
   ]
 }
