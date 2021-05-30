@@ -23,6 +23,7 @@ First, let's get you up-and-running with Bash on your computer or phone or table
 	- [[Mac]]
 	- [[Linux]]
 	- [[Chrome OS]]
+	- [[BSD]]
 - **Mobile**
 	- [[Android]]
 	- [[iOS|iPhone / iPad]]

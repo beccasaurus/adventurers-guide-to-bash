@@ -121,7 +121,7 @@ Acode has _built-in support_ for editing Bash files, which is _super helpful._
 2. Open **Termux**
 3. You will be presented with a black screen with a `$` prompt.
 	- **Termux** needs permission to access the **Internal storage/Adventure** folder.
-	- To give **Termux** access, type the following, followed by the return key ⏎
+	- To give **Termux** access, type the following, followed by the return key <kbd>⏎</kbd>
 	   ```shell
 	   termux-setup-storage
 	   ```
