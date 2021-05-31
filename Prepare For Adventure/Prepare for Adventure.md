@@ -32,5 +32,5 @@ Once prepared, you will be ready to go through the [[Adventurer's Guide/Adventur
 - [[Bash Version Differences]]
 
 ## Ready for Adventure
-- [[Words of Wisdom]]
+
 
