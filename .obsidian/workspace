@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "b3dc03e4747622b6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Prepare For Adventure/Installing Bash/iOS.md",
-            "mode": "source"
-          }
-        },
-        "group": "bf2fe84662f65f68"
-      },
-      {
         "id": "18ecf73c99421eb3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Prepare For Adventure/Installing Bash/iOS.md",
+            "file": "Prepare For Adventure/Prepare for Adventure.md",
+            "mode": "source"
+          }
+        },
+        "group": "81dde0d9d21a1d78"
+      },
+      {
+        "id": "da1eaf98d51c07d3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Prepare For Adventure/Prepare for Adventure.md",
             "mode": "preview"
           }
         },
-        "group": "bf2fe84662f65f68"
+        "group": "81dde0d9d21a1d78"
       }
     ],
     "direction": "vertical"
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prepare For Adventure/Installing Bash/iOS.md",
+                "file": "Prepare For Adventure/Prepare for Adventure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prepare For Adventure/Installing Bash/iOS.md"
+                "file": "Prepare For Adventure/Prepare for Adventure.md"
               }
             }
           },
@@ -117,17 +117,17 @@
     "direction": "horizontal",
     "width": 330
   },
-  "active": "b3dc03e4747622b6",
+  "active": "18ecf73c99421eb3",
   "lastOpenFiles": [
-    "Prepare For Adventure/Installing Bash/iOS.md",
-    "Adventurer's Guide.md",
-    "About the Book.md",
-    "@beccasaurus.md",
-    "Prepare For Adventure/Installing Bash/Android.md",
-    "Prepare For Adventure/Installing Bash/Mac.md",
-    "Prepare For Adventure/Installing Bash/BSD.md",
-    "Prepare For Adventure/Installing Bash/Linux.md",
     "Prepare For Adventure/Prepare for Adventure.md",
-    "Prepare For Adventure/Installing Bash/Untitled.md"
+    "Adventurer's Guide/Lessons/Lesson Plan.md",
+    "Adventurer's Guide/Adventurer's Guide.md",
+    "Prepare For Adventure/Untitled.md",
+    "Prepare For Adventure/Bash Version Differences.md",
+    "Prepare For Adventure/What is a Terminal?.md",
+    "Prepare For Adventure/What is Bash?.md",
+    "Prepare For Adventure/What is a Shell Scripting?.md",
+    "Prepare For Adventure/What is a Shell?.md",
+    "Prepare For Adventure/Installing Bash/Installing Bash.md"
   ]
 }

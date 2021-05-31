@@ -18,6 +18,10 @@ It's _highly recommended_ to walk through the **Adventurer's Guide** in this ord
 
 # Table of Contents
 
+## Adventurer's Guide Tips
+
+- How to Follow Along with the Lesson Plan
+
 ## Variables
 
 - [[Variables]] `<--- Start Here`

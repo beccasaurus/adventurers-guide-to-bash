@@ -16,20 +16,21 @@ Once prepared, you will be ready to go through the [[Adventurer's Guide/Adventur
 
 ## Installation
 
-First, let's get you up-and-running with Bash on your computer or phone or tablet!
-
-- **PC**
-	- [[Windows]]
-	- [[Mac]]
-	- [[Linux]]
-	- [[Chrome OS]]
-	- [[BSD]]
-- **Mobile**
-	- [[Android]]
-	- [[iOS|iPhone / iPad]]
+- [[Installing Bash]]
 
 ## Introduction
 
 - [[What is a Shell?]]
+- [[What is a Shell Scripting?]]
 - [[What is Bash?]]
+- [[What is a Terminal?]]
+
+## Hello, Bash!
+
+- [[My First Bash Script]]
+- [[Tips for Bash Scripts]]
+- [[Bash Version Differences]]
+
+## Ready for Adventure
+- [[Words of Wisdom]]
 
