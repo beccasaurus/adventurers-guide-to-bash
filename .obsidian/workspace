@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Prepare For Adventure/Installing Bash/BSD.md",
+            "file": "Prepare For Adventure/Installing Bash/iOS.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Prepare For Adventure/Installing Bash/BSD.md",
+            "file": "Prepare For Adventure/Installing Bash/iOS.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prepare For Adventure/Installing Bash/BSD.md",
+                "file": "Prepare For Adventure/Installing Bash/iOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prepare For Adventure/Installing Bash/BSD.md"
+                "file": "Prepare For Adventure/Installing Bash/iOS.md"
               }
             }
           },
@@ -119,15 +119,15 @@
   },
   "active": "b3dc03e4747622b6",
   "lastOpenFiles": [
+    "Prepare For Adventure/Installing Bash/iOS.md",
+    "Adventurer's Guide.md",
+    "About the Book.md",
+    "@beccasaurus.md",
+    "Prepare For Adventure/Installing Bash/Android.md",
+    "Prepare For Adventure/Installing Bash/Mac.md",
     "Prepare For Adventure/Installing Bash/BSD.md",
     "Prepare For Adventure/Installing Bash/Linux.md",
-    "Prepare For Adventure/Installing Bash/Android.md",
     "Prepare For Adventure/Prepare for Adventure.md",
-    "Prepare For Adventure/Installing Bash/Untitled.md",
-    "Adventurer's Guide/Images/Android/TermuxHelloWorld.jpg",
-    "Adventurer's Guide/Images/Android/AcodeAdventureFolder.jpg",
-    "Adventurer's Guide/Images/Android/AcodeAllow.jpg",
-    "Adventurer's Guide/Images/Attribution.md",
-    "Prepare For Adventure/Installing Bash/Apple iOS.md"
+    "Prepare For Adventure/Installing Bash/Untitled.md"
   ]
 }

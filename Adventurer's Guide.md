@@ -84,7 +84,7 @@ Read the book preface: [[Preface]]
 
 #### About the Author
 
-Find out more about the author: [[@beccasaurus]]
+Find out more about the author: [[About the Author]]
 
 #### About the Book
 

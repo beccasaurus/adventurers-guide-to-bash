@@ -14,7 +14,7 @@ If you read an introductory book about **Java**, the outline of the book will be
 
 This book, like all technical books, is full of **opinions.**
 
-These are [[@beccasaurus|my]] **opinions**.
+These are [[About the Author|my]] **opinions**.
 
 There are a _lot of ways to write Bash programs._
 

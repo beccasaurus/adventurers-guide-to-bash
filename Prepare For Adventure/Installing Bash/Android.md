@@ -4,7 +4,9 @@ To write and develop Bash applications on an Android phone or tablet, you will n
 1. **Text Editor** to write and edit Bash scripts ( _plain-text files_ )
 1. **Bash** ( _e.g. a Linux environment running on Android with Bash_ )
 
-As of 2021, there are a few options for Text Editors but really only one great option for Bash: [[#Termux]].
+As of 2021, there is really only one good option for running **Bash** on Android: [[#Termux]].
+
+There are _multiple_ text editors available, but I recommend the free, powerful [[#Acode]] **Text Editor**.
 
 The following instructions will get you up-and-running with Bash on your Android device!
 
@@ -116,6 +118,8 @@ Acode has _built-in support_ for editing Bash files, which is _super helpful._
 ![Termux Logo](TermuxLogo.png)
 
 [Termux](https://termux.com/) is a free Android application which provides a lovely terminal with a Linux environment including Bash right on your Android phone or tablet.
+
+> The [Termux Wiki](https://wiki.termux.com/wiki/Main_Page) has lots of great documentation!
 
 1. [Install Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US) from the [Google Play Store](https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US)
 2. Open **Termux**
